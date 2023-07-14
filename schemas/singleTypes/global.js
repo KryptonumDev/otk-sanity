@@ -20,14 +20,9 @@ export default {
       title: 'Facebook Link',
     },
     {
-      name: 'instagram',
+      name: 'youtube',
       type: 'string',
-      title: 'Instagram Link',
-    },
-    {
-      name: 'twitter',
-      type: 'string',
-      title: 'Twitter Link',
+      title: 'YouTube Link',
     },
     {
       name: 'nav',

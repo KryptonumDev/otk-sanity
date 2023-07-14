@@ -8,6 +8,7 @@ import notFound from './singleTypes/notFound'
 import cta from './components/cta'
 import seo from './components/seo'
 import ctaSection from './components/ctaSection'
+import imageAndDescription from './components/imageAndDescription'
 
 
 export const singleTypes = [
@@ -26,4 +27,5 @@ export const schemaTypes = [
   cta,
   seo,
   ctaSection,
+  imageAndDescription
 ]

@@ -19,6 +19,11 @@ export default {
       title: 'Tekst',
     },
     {
+      name: 'claim',
+      type: 'markdown',
+      title: 'Wyróżniony tekst',
+    },
+    {
       name: 'cta',
       type: 'array',
       of: [
