@@ -64,6 +64,60 @@ export default {
       group: 'mission',
     },
     {
+      name: 'office_Heading',
+      type: 'markdown',
+      title: 'Przychodnia - Nagłówek',
+      group: 'office',
+    },
+    {
+      name: 'office_Cta',
+      type: 'array',
+      of: [
+        {
+          type: 'cta'
+        }
+      ],
+      validation: Rule => Rule.max(2),
+      title: 'Przychodnia - Wezwanie do działania',
+      group: 'office',
+    },
+    {
+      name: 'office_Icon',
+      type: 'image',
+      title: 'Przychodnia - Ikona',
+      group: 'office',
+    },
+    {
+      name: 'appointment_Heading',
+      type: 'markdown',
+      title: 'Umów wizytę - Nagłówek',
+      group: 'appointment',
+    },
+    {
+      name: 'appointment_Subheading',
+      type: 'markdown',
+      title: 'Umów wizytę - Podnagłówek',
+      group: 'appointment',
+    },
+    {
+      name: 'appointment_Cta',
+      type: 'array',
+      of: [
+        {
+          type: 'cta'
+        }
+      ],
+      validation: Rule => Rule.max(2),
+      title: 'Umów wizytę - Wezwanie do działania',
+      group: 'appointment',
+    },
+    {
+      name: 'appointment_Img',
+      type: 'image',
+      title: 'Umów wizytę - Ikona',
+      group: 'appointment',
+    },
+    {
       name: 'seo',
       type: 'seo',
       title: 'SEO',
@@ -82,6 +136,14 @@ export default {
     {
       name: 'mission',
       title: 'Nasza misja',
+    },
+    {
+      name: 'office',
+      title: 'Nasza przychodnia',
+    },
+    {
+      name: 'appointment',
+      title: 'Umów wizytę',
     },
     {
       name: 'seo',
