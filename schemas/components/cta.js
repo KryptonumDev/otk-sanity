@@ -40,7 +40,7 @@ export default {
   preview: {
     select: {
       title: 'text',
-      subtitle: 'theme'
+      subtitle: 'href'
     },
   }
 }

@@ -39,6 +39,8 @@ export default defineConfig({
           .title("Strony")
           .items([
             ...singleTypes.map((item) => createListItem(S, item)),
+            S.divider(),
+            S.documentTypeListItem('faq'),
           ]),
     }),
     visionTool(),

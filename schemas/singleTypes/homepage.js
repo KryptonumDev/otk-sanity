@@ -172,6 +172,12 @@ export default {
       group: 'prevention',
     },
     {
+      name: 'faqSection',
+      type: 'faqSection',
+      title: 'Sekcja z FAQ',
+      group: 'faq',
+    },
+    {
       name: 'seo',
       type: 'seo',
       title: 'SEO',
@@ -208,8 +214,12 @@ export default {
       title: 'Profilaktyka',
     },
     {
-      name: 'ctaSection3',
-      title: 'Sekcja wezwanie do działania 3',
+      name: 'prevention',
+      title: 'Profilaktyka',
+    },
+    {
+      name: 'faq',
+      title: 'Sekcja z FAQ',
     },
     {
       name: 'seo',

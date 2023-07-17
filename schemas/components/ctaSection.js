@@ -1,3 +1,5 @@
+import { removeMarkdown } from "../../utils/functions"
+
 export default {
   name: "ctaSection",
   title: "Sekcja z wezwaniem do działania",
@@ -47,8 +49,14 @@ export default {
   ],
   preview: {
     select: {
-      title: 'text',
-      subtitle: 'theme'
+      title: 'heading',
+      subtitle: 'subheading'
     },
+    prepare({ title, subtitle }){
+      return {
+        title: removeMarkdown(title),
+        subtitle: removeMarkdown(subtitle),
+      }
+    }
   }
 }
