@@ -3,7 +3,10 @@ import { deskTool } from 'sanity/desk'
 import { visionTool } from '@sanity/vision'
 import { schemaTypes } from './schemas'
 import { singleTypes } from './schemas'
+import { collectionTypes } from './schemas'
 import { media } from 'sanity-plugin-media'
+
+import global from './schemas/singleTypes/global'
 
 import { markdownSchema } from 'sanity-plugin-markdown'
 import { CustomMarkdownInput } from './components/Markdown'
@@ -38,9 +41,11 @@ export default defineConfig({
         S.list()
           .title("Strony")
           .items([
+            createListItem(S, global),
+            S.divider(),
             ...singleTypes.map((item) => createListItem(S, item)),
             S.divider(),
-            S.documentTypeListItem('faq'),
+            ...collectionTypes.map((item) => S.documentTypeListItem(item.name)),
           ]),
     }),
     visionTool(),

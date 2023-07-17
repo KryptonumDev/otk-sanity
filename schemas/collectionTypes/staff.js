@@ -21,6 +21,21 @@ export default {
       type: 'markdown',
       title: 'Stanowisko',
     },
+    {
+      name: 'list',
+      type: 'array',
+      of: [
+        {
+          type: 'markdown'
+        }
+      ],
+      title: 'List punktów',
+    },
+    {
+      name: 'bio',
+      type: 'markdown',
+      title: 'Biogram - opis',
+    },
   ],
   preview: {
     select: {
