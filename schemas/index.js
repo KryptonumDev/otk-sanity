@@ -4,12 +4,14 @@ import { global_Footer, global_Nav, global_Ebook, global_Info } from './singleTy
 import homepage from './singleTypes/homepage'
 import familyClinic from './singleTypes/familyClinic'
 import staffPage from './singleTypes/staffPage'
+import privacyPolicy from './singleTypes/privacyPolicy'
 import notFound from './singleTypes/notFound'
 
 export const singleTypes = [
   homepage,
   familyClinic,
   staffPage,
+  privacyPolicy,
   notFound
 ]
 

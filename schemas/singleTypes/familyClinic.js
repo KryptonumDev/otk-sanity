@@ -124,6 +124,12 @@ export default {
       group: 'appointment',
     },
     {
+      name: 'faqSection',
+      type: 'faqSection',
+      title: 'Sekcja z FAQ',
+      group: 'faq',
+    },
+    {
       name: 'seo',
       type: 'seo',
       title: 'SEO',
@@ -154,6 +160,10 @@ export default {
     {
       name: 'appointment',
       title: 'Umów wizytę',
+    },
+    {
+      name: 'faq',
+      title: 'Sekcja z FAQ',
     },
     {
       name: 'seo',
