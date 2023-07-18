@@ -24,7 +24,8 @@ export default {
         {
           type: 'reference',
           to: [{ type: 'faq' }],
-        }
+          options: { disableNew: true },
+        },
       ],
       title: 'Lista',
     },

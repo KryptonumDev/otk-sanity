@@ -29,6 +29,7 @@ import ctaSection from './components/ctaSection'
 import imageAndDescription from './components/imageAndDescription'
 import imageAndTitle from './components/imageAndTitle'
 import faqSection from './components/faqSection'
+import staffSection from './components/staffSection'
 
 export const schemaTypes = [
   // Single Types
@@ -48,5 +49,6 @@ export const schemaTypes = [
   ctaSection,
   imageAndDescription,
   imageAndTitle,
-  faqSection
+  faqSection,
+  staffSection,
 ]

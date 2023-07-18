@@ -88,6 +88,12 @@ export default {
       group: 'office',
     },
     {
+      name: 'staffSection',
+      type: 'staffSection',
+      title: 'Nasz personel',
+      group: 'staff',
+    },
+    {
       name: 'appointment_Heading',
       type: 'markdown',
       title: 'Umów wizytę - Nagłówek',
@@ -140,6 +146,10 @@ export default {
     {
       name: 'office',
       title: 'Nasza przychodnia',
+    },
+    {
+      name: 'staff',
+      title: 'Personel',
     },
     {
       name: 'appointment',
