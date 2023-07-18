@@ -23,6 +23,41 @@ export default {
       group: 'hero',
     },
     {
+      name: 'services_Heading',
+      type: 'markdown',
+      title: 'Usługi - Nagłówek',
+      group: 'services',
+    },
+    {
+      name: 'services_Paragraph',
+      type: 'markdown',
+      title: 'Usługi - Paragraf',
+      group: 'services',
+    },
+    {
+      name: 'services_List',
+      type: 'array',
+      of: [
+        {
+          type: 'imageAndTitle'
+        }
+      ],
+      title: 'Lista Usług',
+      group: 'services',
+    },
+    {
+      name: 'services_Cta',
+      type: 'array',
+      of: [
+        {
+          type: 'cta'
+        }
+      ],
+      validation: Rule => Rule.max(2),
+      title: 'Usługi - Cta',
+      group: 'services',
+    },
+    {
       name: 'seo',
       type: 'seo',
       title: 'SEO',
@@ -33,6 +68,10 @@ export default {
     {
       name: 'hero',
       title: 'Hero',
+    },
+    {
+      name: 'services',
+      title: 'Usługi',
     },
     {
       name: 'seo',

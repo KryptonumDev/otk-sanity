@@ -52,6 +52,12 @@ export default {
       title: 'Informacje o firmie',
       group: 'info',
     },
+    {
+      name: 'newsletter',
+      type: 'global_Newsletter',
+      title: 'Newsletter',
+      group: 'newsletter',
+    },
   ],
   groups: [
     {
@@ -73,7 +79,11 @@ export default {
     {
       name: 'info',
       title: 'Informacje o firmie',
-    }
+    },
+    {
+      name: 'newsletter',
+      title: 'Newsletter',
+    },
   ]
 }
 
@@ -180,6 +190,34 @@ export const global_Info = {
       name: 'map',
       type: 'geopoint',
       title: 'Mapa',
+    },
+  ]
+}
+
+export const global_Newsletter = {
+  name: 'global_Newsletter',
+	title: 'Sekcja Newsletter',
+  type: 'object',
+  fields: [
+    {
+      name: 'heading',
+      type: 'markdown',
+      title: 'Nagłówek',
+    },
+    {
+      name: 'subheading',
+      type: 'markdown',
+      title: 'Podnagłówek',
+    },
+    {
+      name: 'cta',
+      type: 'string',
+      title: 'Tekst na przycisku',
+    },
+    {
+      name: 'img',
+      type: 'image',
+      title: 'Zdjęcie',
     },
   ]
 }
