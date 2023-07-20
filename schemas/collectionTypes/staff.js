@@ -22,16 +22,6 @@ export default {
       title: 'Stanowisko',
     },
     {
-      name: 'list',
-      type: 'array',
-      of: [
-        {
-          type: 'markdown'
-        }
-      ],
-      title: 'List punktów',
-    },
-    {
       name: 'bio',
       type: 'markdown',
       title: 'Biogram - opis',
@@ -39,13 +29,15 @@ export default {
   ],
   preview: {
     select: {
-      title: 'question',
-      subtitle: 'answer'
+      title: 'name',
+      subtitle: 'position',
+      media: 'img'
     },
-    prepare({ title, subtitle }){
+    prepare({ title, subtitle, media }){
       return {
         title: removeMarkdown(title),
         subtitle: removeMarkdown(subtitle),
+        media
       }
     }
   }

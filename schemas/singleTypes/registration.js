@@ -1,8 +1,8 @@
 export default {
-  name: 'staffPage',
-	title: 'Nasz personel',
+  name: 'registration',
+	title: 'Zapisy',
   type: 'document',
-  icon: () => '👥',
+  icon: () => '📨',
   fields: [
     {
       name: 'hero_Heading',
@@ -21,17 +21,6 @@ export default {
       type: 'image',
       title: 'Hero Zdjęcie',
       group: 'hero',
-    },
-    {
-      name: 'staff_Cta',
-      type: 'array',
-      of: [
-        {
-          type: 'cta'
-        }
-      ],
-      title: 'Personel - Wezwanie do działania',
-      group: 'staff',
     },
     {
       name: 'services_Heading',
@@ -69,6 +58,18 @@ export default {
       group: 'services',
     },
     {
+      name: 'ctaSection',
+      type: 'ctaSection',
+      title: 'Sekcja z wezwaniem do działania',
+      group: 'ctaSection',
+    },
+    {
+      name: 'faqSection',
+      type: 'faqSection',
+      title: 'Sekcja z FAQ',
+      group: 'faq',
+    },
+    {
       name: 'seo',
       type: 'seo',
       title: 'SEO',
@@ -81,12 +82,16 @@ export default {
       title: 'Hero',
     },
     {
-      name: 'staff',
-      title: 'Personel',
-    },
-    {
       name: 'services',
       title: 'Usługi',
+    },
+    {
+      name: 'ctaSection',
+      title: 'Sekcja z wezwaniem do działania',
+    },
+    {
+      name: 'faq',
+      title: 'Sekcja z FAQ',
     },
     {
       name: 'seo',
