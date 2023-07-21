@@ -6,6 +6,7 @@ import familyClinic from './singleTypes/familyClinic'
 import staffPage from './singleTypes/staffPage'
 import contact from './singleTypes/contact'
 import registration from './singleTypes/registration'
+import faqPage from './singleTypes/faqPage'
 import privacyPolicy from './singleTypes/privacyPolicy'
 import notFound from './singleTypes/notFound'
 
@@ -15,6 +16,7 @@ export const singleTypes = [
   staffPage,
   contact,
   registration,
+  faqPage,
   privacyPolicy,
   notFound
 ]
