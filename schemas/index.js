@@ -1,6 +1,6 @@
 // Single Types
 import global from './singleTypes/global'
-import { global_Footer, global_Nav, global_Ebook, global_Info, global_Newsletter } from './singleTypes/global'
+import { global_Footer, global_Nav, global_Ebook, global_Info, global_Newsletter, global_Seo } from './singleTypes/global'
 import homepage from './singleTypes/homepage'
 import familyClinic from './singleTypes/familyClinic'
 import staffPage from './singleTypes/staffPage'
@@ -45,6 +45,7 @@ export const schemaTypes = [
   global_Ebook,
   global_Info,
   global_Newsletter,
+  global_Seo,
   ...singleTypes,
   
   // Collection Types

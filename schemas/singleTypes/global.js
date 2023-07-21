@@ -58,6 +58,12 @@ export default {
       title: 'Newsletter',
       group: 'newsletter',
     },
+    {
+      name: 'seo',
+      type: 'global_Seo',
+      title: 'Globalne SEO',
+      group: 'seo',
+    },
   ],
   groups: [
     {
@@ -83,6 +89,10 @@ export default {
     {
       name: 'newsletter',
       title: 'Newsletter',
+    },
+    {
+      name: 'seo',
+      title: 'SEO',
     },
   ]
 }
@@ -218,6 +228,20 @@ export const global_Newsletter = {
       name: 'img',
       type: 'image',
       title: 'Zdjęcie',
+    },
+  ]
+}
+
+export const global_Seo = {
+  name: "global_Seo",
+  title: "Global SEO",
+  type: "object",
+  fields: [
+    {
+      name: 'og_Img',
+      type: 'image',
+      title: 'OG Image',
+      description: 'Zdjęcie, które jest widoczne przy udostępnianiu strony w mediach społecznościowych. Wymiary zdjęcia powinny mieć 1200x630px'
     },
   ]
 }

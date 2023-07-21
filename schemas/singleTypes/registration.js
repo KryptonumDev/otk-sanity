@@ -58,6 +58,80 @@ export default {
       group: 'services',
     },
     {
+      name: 'registration_Heading',
+      type: 'markdown',
+      title: 'Rejestracja - Nagłowek',
+      group: 'registration',
+    },
+    {
+      name: 'registration_Paragraph',
+      type: 'markdown',
+      title: 'Rejestracja - Paragraf',
+      group: 'registration',
+    },
+    {
+      name: 'registration_Has_Title',
+      type: 'markdown',
+      title: 'Rejestracja - Mam Konto - Tytuł',
+      group: 'registration',
+      fieldset: 'registration_Has'
+    },
+    {
+      name: 'registration_Has_Paragraph',
+      type: 'markdown',
+      title: 'Rejestracja - Mam Konto - Paragraf',
+      group: 'registration',
+      fieldset: 'registration_Has'
+    },
+    {
+      name: 'registration_Has_Cta',
+      type: 'array',
+      of: [
+        { type: 'cta' }
+      ],
+      title: 'Rejestracja - Mam Konto - Wezwanie do działania',
+      group: 'registration',
+      fieldset: 'registration_Has'
+    },
+    {
+      name: 'registration_HasNot_Title',
+      type: 'markdown',
+      title: 'Rejestracja - Nie Mam Konta - Tytuł',
+      group: 'registration',
+      fieldset: 'registration_HasNot'
+    },
+    {
+      name: 'registration_HasNot_Heading',
+      type: 'markdown',
+      title: 'Rejestracja - Nie Mam Konta - Nagłowek',
+      group: 'registration',
+      fieldset: 'registration_HasNot'
+    },
+    {
+      name: 'registration_HasNot_Subheading',
+      type: 'markdown',
+      title: 'Rejestracja - Nie Mam Konta - Podnagłowek',
+      group: 'registration',
+      fieldset: 'registration_HasNot'
+    },
+    {
+      name: 'registration_HasNot_Paragraph',
+      type: 'markdown',
+      title: 'Rejestracja - Nie Mam Konta - Paragraf',
+      group: 'registration',
+      fieldset: 'registration_HasNot'
+    },
+    {
+      name: 'registration_HasNot_List',
+      type: 'array',
+      of: [
+        { type: 'imageAndDescription' }
+      ],
+      title: 'Rejestracja - Nie Mam Konta - Lista',
+      group: 'registration',
+      fieldset: 'registration_HasNot'
+    },
+    {
       name: 'ctaSection',
       type: 'ctaSection',
       title: 'Sekcja z wezwaniem do działania',
@@ -86,6 +160,10 @@ export default {
       title: 'Usługi',
     },
     {
+      name: 'registration',
+      title: 'Rejestracja',
+    },
+    {
       name: 'ctaSection',
       title: 'Sekcja z wezwaniem do działania',
     },
@@ -97,5 +175,17 @@ export default {
       name: 'seo',
       title: 'SEO',
     },
-  ]
+  ],
+  fieldsets: [
+    {
+      name: 'registration_Has',
+      title: 'Mam konto',
+      options: { collapsible: true, collapsed: true },
+    },
+    {
+      name: 'registration_HasNot',
+      title: 'Nie mam konta',
+      options: { collapsible: true, collapsed: true },
+    }
+  ],
 }

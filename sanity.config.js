@@ -28,7 +28,7 @@ function createListItem(S, singleType) {
 
 export default defineConfig({
   name: 'default',
-  title: 'osrodek-tk',
+  title: 'Ośrodek Zdrowia w Turośni Koscielnej',
 
   projectId: 'gurb517x',
   dataset: 'production',
