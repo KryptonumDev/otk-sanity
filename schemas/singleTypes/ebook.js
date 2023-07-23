@@ -58,6 +58,12 @@ export default {
       group: 'contents',
     },
     {
+      name: 'contents_Icon',
+      type: 'image',
+      title: 'Spis treści - Ikona',
+      group: 'contents',
+    },
+    {
       name: 'authors_Heading',
       type: 'markdown',
       title: 'Autorzy - Nagłówek',
