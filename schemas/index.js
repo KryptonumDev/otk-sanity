@@ -7,6 +7,7 @@ import contact from './singleTypes/contact'
 import registration from './singleTypes/registration'
 import faqPage from './singleTypes/faqPage'
 import ebook, { ebook_Contents } from './singleTypes/ebook'
+import pricing, { pricing_List } from './singleTypes/pricing'
 import privacyPolicy from './singleTypes/privacyPolicy'
 import notFound from './singleTypes/notFound'
 
@@ -18,6 +19,7 @@ export const singleTypes = [
   registration,
   faqPage,
   ebook,
+  pricing,
   privacyPolicy,
   notFound
 ]
@@ -51,6 +53,7 @@ export const schemaTypes = [
   global_Seo,
   ...singleTypes,
   ebook_Contents,
+  pricing_List,
   
   // Collection Types
   ...collectionTypes,
