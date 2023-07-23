@@ -1,12 +1,12 @@
 // Single Types
-import global from './singleTypes/global'
-import { global_Footer, global_Nav, global_Ebook, global_Info, global_Newsletter, global_Seo } from './singleTypes/global'
+import global, { global_Footer, global_Nav, global_Ebook, global_Info, global_Newsletter, global_Seo } from './singleTypes/global'
 import homepage from './singleTypes/homepage'
 import familyClinic from './singleTypes/familyClinic'
 import staffPage from './singleTypes/staffPage'
 import contact from './singleTypes/contact'
 import registration from './singleTypes/registration'
 import faqPage from './singleTypes/faqPage'
+import ebook, { ebook_Contents } from './singleTypes/ebook'
 import privacyPolicy from './singleTypes/privacyPolicy'
 import notFound from './singleTypes/notFound'
 
@@ -17,6 +17,7 @@ export const singleTypes = [
   contact,
   registration,
   faqPage,
+  ebook,
   privacyPolicy,
   notFound
 ]
@@ -49,6 +50,7 @@ export const schemaTypes = [
   global_Newsletter,
   global_Seo,
   ...singleTypes,
+  ebook_Contents,
   
   // Collection Types
   ...collectionTypes,
