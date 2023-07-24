@@ -48,6 +48,7 @@ import imageAndTitle from './components/imageAndTitle'
 import faqSection from './components/faqSection'
 import staffSection from './components/staffSection'
 import titleAndDescription from './components/titleAndDescription'
+import YoutubeEmbed from './components/YoutubeEmbed'
 
 export const schemaTypes = [
   // Single Types
@@ -76,4 +77,5 @@ export const schemaTypes = [
   faqSection,
   staffSection,
   titleAndDescription,
+  YoutubeEmbed,
 ]
