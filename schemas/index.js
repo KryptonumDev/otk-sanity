@@ -8,6 +8,7 @@ import registration from './singleTypes/registration'
 import faqPage from './singleTypes/faqPage'
 import ebook, { ebook_Contents } from './singleTypes/ebook'
 import pricing, { pricing_List } from './singleTypes/pricing'
+import preventionAndDiagnosis from './singleTypes/preventionAndDiagnosis'
 import privacyPolicy from './singleTypes/privacyPolicy'
 import notFound from './singleTypes/notFound'
 
@@ -20,6 +21,7 @@ export const singleTypes = [
   faqPage,
   ebook,
   pricing,
+  preventionAndDiagnosis,
   privacyPolicy,
   notFound
 ]
@@ -41,6 +43,7 @@ import imageAndDescription from './components/imageAndDescription'
 import imageAndTitle from './components/imageAndTitle'
 import faqSection from './components/faqSection'
 import staffSection from './components/staffSection'
+import titleAndDescription from './components/titleAndDescription'
 
 export const schemaTypes = [
   // Single Types
@@ -66,4 +69,5 @@ export const schemaTypes = [
   imageAndTitle,
   faqSection,
   staffSection,
+  titleAndDescription,
 ]
