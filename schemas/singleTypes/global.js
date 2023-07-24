@@ -130,6 +130,11 @@ export const global_Nav = {
       type: 'string',
       title: 'Godziny otwarcia',
     },
+    {
+      name: 'questionnaire',
+      type: 'url',
+      title: 'Link do ankiety satysfakcji',
+    },
   ]
 }
 
