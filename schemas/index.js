@@ -9,6 +9,7 @@ import faqPage from './singleTypes/faqPage'
 import ebook, { ebook_Contents } from './singleTypes/ebook'
 import pricing, { pricing_List } from './singleTypes/pricing'
 import preventionAndDiagnosis from './singleTypes/preventionAndDiagnosis'
+import where, { where_Facility_List } from './singleTypes/where'
 import privacyPolicy from './singleTypes/privacyPolicy'
 import notFound from './singleTypes/notFound'
 
@@ -22,6 +23,7 @@ export const singleTypes = [
   ebook,
   pricing,
   preventionAndDiagnosis,
+  where,
   privacyPolicy,
   notFound
 ]
@@ -57,6 +59,7 @@ export const schemaTypes = [
   ...singleTypes,
   ebook_Contents,
   pricing_List,
+  where_Facility_List,
   
   // Collection Types
   ...collectionTypes,
