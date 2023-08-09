@@ -117,6 +117,21 @@ export const global_Footer = {
       type: 'cta',
       title: 'Wezwanie do działania',
     },
+    {
+      name: 'legal_Text',
+      type: 'markdown',
+      title: 'Fundusze Europejski Informacje',
+    },
+    {
+      name: 'legal_Images',
+      type: 'array',
+      of: [
+        {
+          type: 'image'
+        }
+      ],
+      title: 'Fundusze Europejski Loga',
+    },
   ]
 }
 
