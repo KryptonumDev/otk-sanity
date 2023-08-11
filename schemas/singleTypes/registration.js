@@ -23,6 +23,26 @@ export default {
       group: 'hero',
     },
     {
+      name: 'hero_Cta',
+      type: 'array',
+      of: [
+        {
+          type: 'cta'
+        }
+      ],
+      title: 'Hero Wezwanie do działania',
+      group: 'hero',
+    },
+    {
+      name: 'services_CtaOnTop',
+      type: 'array',
+      of: [
+        { type: 'cta' }
+      ],
+      title: 'Usługi - Wezwanie do działania na górze',
+      group: 'services',
+    },
+    {
       name: 'services_Heading',
       type: 'markdown',
       title: 'Usługi - Nagłówek',
