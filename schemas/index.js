@@ -12,6 +12,7 @@ import preventionAndDiagnosis from './singleTypes/preventionAndDiagnosis'
 import where, { where_Facility_List } from './singleTypes/where'
 import regulations, { regulations_RulesList } from './singleTypes/regulations'
 import privacyPolicy from './singleTypes/privacyPolicy'
+import sitemap from './singleTypes/sitemap'
 import notFound from './singleTypes/notFound'
 
 export const singleTypes = [
@@ -26,6 +27,7 @@ export const singleTypes = [
   preventionAndDiagnosis,
   where,
   regulations,
+  sitemap,
   privacyPolicy,
   notFound
 ]
