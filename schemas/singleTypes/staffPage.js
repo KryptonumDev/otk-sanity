@@ -23,6 +23,21 @@ export default {
       group: 'hero',
     },
     {
+      name: 'staff_List',
+      type: 'array',
+      of: [
+        {
+          type: 'reference',
+          to: { type: 'staff' },
+          options: {
+            disableNew: true
+          }
+        }
+      ],
+      title: 'Personel - Lista osób',
+      group: 'staff',
+    },
+    {
       name: 'staff_Cta',
       type: 'array',
       of: [

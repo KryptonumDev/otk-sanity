@@ -14,6 +14,20 @@ export default {
       title: 'Podnagłówek',
     },
     {
+      name: 'list',
+      title: 'Lista',
+      type: 'array',
+      of: [
+        {
+          type: 'reference',
+          to: { type: 'staff' },
+          options: {
+            disableNew: true
+          }
+        }
+      ],
+    },
+    {
       name: 'cta',
       type: 'cta',
       title: 'Wezwanie do działania',
